@@ -1,0 +1,343 @@
+body {
+font: 20px Montserrat, sans-serif;
+line-height: 1.8;
+color: #f5f6f7;
+}
+p {font-size: 16px;}
+
+.whiteMiddle {
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 1.8em;
+}
+
+.margin {margin-bottom: 45px;}
+
+p {
+	color: #adb2ba;
+	font-family: 'Questrial', helvetica, arial, sans-serif;
+	font-size: 0.85em;
+	line-height: 1.7em;
+	letter-spacing: 1px;
+	margin-bottom: 2.4em;
+}
+.blind p {
+    color: #3a3d42;
+	font-size: 0.85em;
+	line-height: 1.7em;
+	letter-spacing: 1px;
+	margin-bottom: 2.4em;
+    
+}
+
+p::selection {
+    background: #fff;
+    color: #262E31;
+}
+
+p::-moz-selection {
+   background: #fff;
+   color: #262E31;
+}
+
+a {
+	color: #EFC94C;
+	transition: color .25s ease-in-out;
+	-webkit-transition: color .25s ease-in-out;
+}
+
+a:hover {
+	color: #fff;
+}
+
+em {
+	/*color: #ADC5DE;*/
+	font-style: normal;
+}
+
+.landrMargin {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.bg-1 { 
+background-color: #35373A; /* Green */
+color: #ffffff;
+}
+
+.bg-2 { 
+background-color: #3a3d42; /* Dark Charcoal */
+color: #ffffff;
+}
+
+.bg-3 { 
+background-color: #FC7F03; /* Amazon Orange */
+color: #555555;
+}
+
+.bg-4 {
+background-color: #2f2f2f; /* Black Gray */
+color: #fff;
+}
+
+.bg-5 { 
+background-color: #008F11; /* Matrix Green */
+color: #fff;
+}
+
+.bg-5 { 
+background-color: #008F11; /* Matrix Green */
+color: #fff;
+}
+
+.container-fluid {
+padding-top: 70px;
+padding-bottom: 70px;
+}
+
+.navbar {
+padding-top: 15px;
+padding-bottom: 15px;
+border: 0;
+border-radius: 0;
+margin-bottom: 0;
+font-size: 12px;
+letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+color: #1abc9c !important;
+}
+
+.text-primary {
+color: #FC7F03;
+}
+
+.text-secondery{
+color: #008F11;
+}
+
+
+#shakyMe {
+	word-spacing: 9px;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+}
+
+
+@media (max-width: 767px)
+#intro, h3 {
+    font-size: 1.2em;
+}
+
+.topBorder h3 {
+    border-top: 1px solid #324659;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    padding-top: 1em;
+    text-shadow: 0 0 10px #1d2a36;
+    text-transform: uppercase;
+}
+
+.introBorder h3 {
+    border-top: 1px solid #324659;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    padding-top: 1em;
+    text-shadow: 0 0 10px #1d2a36;
+    text-transform: lowercase;
+}
+
+
+@media (max-width: 767px)
+#img-placer {
+    background: none;
+    width: auto;
+    height: auto;
+    padding-left: 0;
+    padding-top: 2em;
+}
+
+#img-placer {
+    background: url(univ1.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: auto;
+    height: 320px;
+    text-align: center;
+    padding-top: 55px;
+    padding-left: 5px;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+
+ul.tags {
+	padding-left: 0;
+}
+
+ul.tags, ul.tags li {
+	list-style: none;
+}
+
+ul.tags li {
+	background: #15202d;	
+	border-radius: 9px;
+	color: #fff;
+	display: inline;
+	font-size: 0.7em;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	padding: 4px 11px;
+	text-shadow: 0 0 3px #111C26;
+}
+
+
+ h4 {
+    color: darkorange;
+	font-size:1.1em;
+	margin-bottom: 0;
+}
+
+#section-skills #skills {
+	list-style: none;
+	padding-left: 0;
+}
+
+#section-skills #skills .skill-category {
+	margin-bottom: 2.5em;
+}
+
+
+
+
+
+.experiences {
+	padding-left: 0;
+}
+
+.experiences, .experiences li {
+	list-style: none;
+}
+
+.experiences li {
+	line-height: 1.5em;
+}
+
+.experiences {
+	margin-bottom: 3em;
+}
+
+.experiences .experience {
+	margin-bottom: 2em;
+}
+
+.experiences .experience:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.experience .experience-details {
+	float: left; 
+	font-size: 0.9em;
+	font-family: 'Questrial', helvetica, arial, sans-serif;
+	letter-spacing: 1px;
+}
+
+.experience date {
+	color: #adb2ba;
+	float: left;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-size: 1.3em;	
+	font-weight: normal;
+	margin-right: 1.5em;
+}
+
+.experience .company {
+	color: darkorange;
+	font-size: 1.1em;
+}
+
+.experience .position {
+	color: #fff;
+	float: left; 
+	font-size: 0.9em;
+	font-family: 'Questrial', helvetica, arial, sans-serif;	
+	letter-spacing: 1px;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid darkorange;
+  background-color: forestgreen;
+  border-radius: 12px 12px 0px 0px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: darkorange;
+  color: forestgreen;
+  font-weight: 600;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid darkorange;
+  border-top: none; 
+  border-radius: 0px 0px 12px 12px;
+}
+
+.progressReport {
+    margin-top: 300px;
+}
+progress {
+  border-radius: 7px; 
+  width: 30%;
+  height: 22px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+  text-align: center;
+}
+progress::-webkit-progress-bar {
+  background-color: ;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-color: darkorange;
+  border-radius: 7px;
+  box-shadow: 1px 1px 5px 0px darkgreen;
+}
+progress::-moz-progress-bar {
+  /* style rules */
+}
+
+.liveshow {
+    height: 600px;
+}
